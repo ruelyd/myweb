@@ -1,0 +1,14 @@
+OSPF   - Open shortest Path First
+
+HUB operate in Haff Duplex mode, all host share the same COLLISION DOMAIN - only one device can transmit at a time, method detecting collision host use CARIER SENSE MULTIPLE ACCESS with COLLISION DETECTION (CSMA/CD) detect collision and resend.
+
+Hubs operate at layer and not MAC aware, where frame is received it is flooded out all ports apart from one it was received on, all attached host must process all pockets.
+
+------------------------------------
+
+Swithes operate at layer 2 and they also operate at layer they are MAC address aware, they can operate either FULL DUPLEX mode or  HAFT DUPLEX, all host have their own dedicated COLLISION DOMAIN, collision dection is not required.
+
+
+
+
+
